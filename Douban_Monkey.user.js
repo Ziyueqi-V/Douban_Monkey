@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.9
+// @version      0.0.10
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -26,8 +26,7 @@
 .base-selector-title:hover,
 .nav-search .inp input,
 .error-highlighter,
-textarea,
-html {
+textarea {
   background-color: #000000 !important;
 }
 
@@ -61,7 +60,8 @@ html {
 .nlst h3,
 .bg-img-green h4,
 .review-list .review-item .main-bd .action .action-btn,
-.gray_ad {
+.gray_ad,
+html {
   background: #141414 !important;
 }
 
