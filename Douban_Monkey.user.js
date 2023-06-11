@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.11
+// @version      0.0.12
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -182,6 +182,8 @@ html {
     '#dale_movie_subject_top_right',
     // 侧边栏中部广告
     '#dale_movie_subject_inner_middle',
+    // 侧边栏榜单, 电影榜单
+    '#billboard',
   ].filter(Boolean)
 
   style.innerHTML = [

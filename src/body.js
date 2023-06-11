@@ -15,6 +15,8 @@
     '#dale_movie_subject_top_right',
     // 侧边栏中部广告
     '#dale_movie_subject_inner_middle',
+    // 侧边栏榜单, 电影榜单
+    '#billboard',
   ].filter(Boolean)
 
   style.innerHTML = [
