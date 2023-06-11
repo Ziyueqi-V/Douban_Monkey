@@ -17,6 +17,8 @@
     '#dale_movie_subject_inner_middle',
     // 侧边栏榜单, 电影榜单
     '#billboard',
+    // "联系我们"
+    '#content > div > div.aside > div.contact.mod',
   ].filter(Boolean)
 
   style.innerHTML = [
