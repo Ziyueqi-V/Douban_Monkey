@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.19
+// @version      0.0.20
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -190,6 +190,7 @@ html {
     // 侧边栏榜单, 电影榜单
     '#billboard',
     // "联系我们"
+    '#content div.aside div.contact',
     '#content > div > div.aside > div.contact.mod',
     '#content > div > div.aside > div.rating_answer',
     '#contact-and-cooperation',

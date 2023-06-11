@@ -22,6 +22,7 @@
     // 侧边栏榜单, 电影榜单
     '#billboard',
     // "联系我们"
+    '#content div.aside div.contact',
     '#content > div > div.aside > div.contact.mod',
     '#content > div > div.aside > div.rating_answer',
     '#contact-and-cooperation',
