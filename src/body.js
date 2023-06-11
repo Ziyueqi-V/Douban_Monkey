@@ -19,6 +19,9 @@
     '#billboard',
     // "联系我们"
     '#content > div > div.aside > div.contact.mod',
+    '#content > div > div.aside > div.rating_answer',
+    '#contact-and-cooperation',
+
   ].filter(Boolean)
 
   style.innerHTML = [
