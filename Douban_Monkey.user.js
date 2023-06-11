@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.5
+// @version      0.0.6
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -158,6 +158,10 @@ html {
 
 #celebrities .celebrities-list .info span.name a {
   color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.nav-search .inp {
+  background-image: none;
 }
   `;
   GM_addStyle(vistopiaCSS);
