@@ -21,6 +21,8 @@
     '#dale_movie_subject_inner_middle',
     // 侧边栏榜单, 电影榜单
     '#billboard',
+    // 畅销图书榜
+    '.section.weekly-top',
     // "联系我们"
     '#content div.aside div.contact',
     '#content > div > div.aside > div.contact.mod',
