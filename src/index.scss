@@ -43,11 +43,13 @@ html {
 .explore-sticky,
 #db-nav-movie,
 .comment-item .author,
-  // 看过的项目
+// 看过的项目
 .status-item .block,
-  // 评论区用户信息
-.nlst, .nlst h3, .bg-img-green h4,
-  // 赞同、反对按钮
+// 评论区用户信息
+.nlst,
+.nlst h3,
+.bg-img-green h4,
+// 赞同、反对按钮
 .review-list .review-item .main-bd .action .action-btn,
 .gray_ad {
   background: $content-component;
@@ -138,9 +140,14 @@ html {
   border-top: 1px dashed $douban-green;
 }
 
-.lnk-doulist-add i{
-  background: none!important;
+.lnk-doulist-add i {
+  background: none !important;
 }
+
 .nav-search .inp {
   background-image: none;
+}
+
+#celebrities .celebrities-list .info span.name a {
+  color: $secondaryText;
 }
