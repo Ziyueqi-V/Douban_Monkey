@@ -11,6 +11,8 @@
   const hides = [
     // 正在热映
     '#screening',
+    // 热门推荐
+    '#gallery-frames',
     // 侧边栏：在哪看
     '#content div.aside > div.gray_ad',
     // 侧边栏上部广告
