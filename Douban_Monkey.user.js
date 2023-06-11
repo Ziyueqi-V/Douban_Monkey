@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.6
+// @version      0.0.7
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -161,7 +161,7 @@ html {
 }
 
 .nav-search .inp {
-  background-image: none;
+  background-image: none !important;
 }
   `;
   GM_addStyle(vistopiaCSS);
