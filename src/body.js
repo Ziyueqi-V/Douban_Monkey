@@ -9,6 +9,8 @@
 
   const style = document.createElement('style')
   const hides = [
+    // 正在热映
+    '#screening',
     // 侧边栏：在哪看
     '#content div.aside > div.gray_ad',
     // 侧边栏上部广告

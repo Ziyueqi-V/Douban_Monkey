@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.17
+// @version      0.0.18
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -177,6 +177,8 @@ html {
 
   const style = document.createElement('style')
   const hides = [
+    // 正在热映
+    '#screening',
     // 侧边栏：在哪看
     '#content div.aside > div.gray_ad',
     // 侧边栏上部广告
