@@ -21,6 +21,7 @@
     '#content > div > div.aside > div.contact.mod',
     '#content > div > div.aside > div.rating_answer',
     '#contact-and-cooperation',
+    '#doulist',
 
   ].filter(Boolean)
 
