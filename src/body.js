@@ -9,6 +9,8 @@
 
   const style = document.createElement('style')
   const hides = [
+    // 评论来源
+    '.comment-source',
     // 正在热映
     '#screening',
     // 热门推荐

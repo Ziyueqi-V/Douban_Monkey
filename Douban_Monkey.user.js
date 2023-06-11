@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.21
+// @version      0.0.22
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -177,6 +177,8 @@ html {
 
   const style = document.createElement('style')
   const hides = [
+    // 评论来源
+    '.comment-source',
     // 正在热映
     '#screening',
     // 热门推荐
