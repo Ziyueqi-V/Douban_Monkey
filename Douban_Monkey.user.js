@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.26
+// @version      0.0.27
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -72,29 +72,29 @@ h1,
 }
 
 .explore-uncollect-filter,
-.rich-content p,
+.rich-content.rich-content p,
 .review-content p,
-.rich-content section,
+.rich-content.rich-content section,
 .review-content section,
-.rich-content article,
+.rich-content.rich-content article,
 .review-content article,
-.rich-content blockquote,
+.rich-content.rich-content blockquote,
 .review-content blockquote,
 .gaia.gaia-lite .fliter-wp h2 .activate,
 .gaia.gaia-lite .tags label.activate:hover,
-.rich-content p,
+.rich-content.rich-content p,
 .post-content p,
-.rich-content blockquote,
+.rich-content.rich-content blockquote,
 .post-content blockquote,
-.rich-content h4,
+.rich-content.rich-content h4,
 .topic-richtext h4,
-.rich-content h3,
+.rich-content.rich-content h3,
 .topic-richtext h3,
-.rich-content h2,
+.rich-content.rich-content h2,
 .topic-richtext h2,
-.rich-content p,
+.rich-content.rich-content p,
 .topic-richtext p,
-.rich-content blockquote,
+.rich-content.rich-content blockquote,
 .topic-richtext blockquote,
 .sidebar-info-wrapper .info-item .info-item-val,
 #wrapper,
