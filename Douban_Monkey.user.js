@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.27
+// @version      0.0.28
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -60,10 +60,13 @@ textarea {
 .nlst,
 .nlst h3,
 .bg-img-green h4,
-.review-list .review-item .main-bd .action .action-btn,
 .gray_ad,
 html {
   background: #121212;
+}
+
+.review-list .review-item .main-bd .action .action-btn {
+  background-color: #141414;
 }
 
 h1,

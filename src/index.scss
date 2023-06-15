@@ -49,11 +49,14 @@ textarea {
 .nlst,
 .nlst h3,
 .bg-img-green h4,
-// 赞同、反对按钮
-.review-list .review-item .main-bd .action .action-btn,
 .gray_ad,
 html {
   background: $deepGray;
+}
+
+// 赞同、反对按钮
+.review-list .review-item .main-bd .action .action-btn {
+  background-color: $content-component;
 }
 
 h1,
