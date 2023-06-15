@@ -2,6 +2,7 @@
 
 $douban-blue: #258dcd;
 $douban-green: #007722;
+$btn-bg: #f0f7f921;
 
 // "豆瓣正在发生"
 .notify-mod,
@@ -55,8 +56,8 @@ html {
 }
 
 // 赞同、反对按钮
-.review-list .review-item .main-bd .action .action-btn {
-  background-color: $content-component;
+.review-list .review-item .main-bd .action .action-btn.action-btn {
+  background-color: $btn-bg;
 }
 
 h1,
