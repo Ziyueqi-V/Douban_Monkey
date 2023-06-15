@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.25
+// @version      0.0.26
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -19,7 +19,7 @@
   const vistopiaCSS = `
   .notify-mod,
 #db-nav-sns {
-  background: #1f1f1f !important;
+  background: #1f1f1f;
 }
 
 .base-selector.expand .base-selector-title,
@@ -27,7 +27,8 @@
 .nav-search .inp input,
 .error-highlighter,
 textarea {
-  background-color: #141414 !important;
+  background-color: #141414;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .meta-header,
@@ -67,7 +68,7 @@ html {
 
 h1,
 #content h2 {
-  color: rgba(255, 255, 255, 0.85) !important;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .explore-uncollect-filter,
@@ -101,12 +102,12 @@ h1,
 .comments-app-wrapper,
 .blockquote-list.blockquote-list figure,
 html {
-  color: rgba(255, 255, 255, 0.65) !important;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .drc-subject-info-subtitle,
 .gaia.gaia-lite .tags label {
-  color: rgba(255, 255, 255, 0.45) !important;
+  color: rgba(255, 255, 255, 0.45);
 }
 
 .bg-img-green {
@@ -114,11 +115,11 @@ html {
 }
 
 #db-isay label {
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 #db-nav-movie .nav-wrap {
-  border-color: #141414 !important;
+  border-color: #141414;
 }
 
 .episode_list a:link,
@@ -160,18 +161,18 @@ html {
 }
 
 #celebrities .celebrities-list .info span.name a {
-  color: rgba(255, 255, 255, 0.45) !important;
+  color: rgba(255, 255, 255, 0.45);
 }
 
 .nav-search .inp {
   background-image: none !important;
 }
 .nav-search .inp input {
-  color: rgba(255, 255, 255, 0.65) !important;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .op-lnks a.comment-source {
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(255, 255, 255, 0.3);
 }
   `;
   GM_addStyle(vistopiaCSS);
