@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.32
+// @version      0.0.33
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -54,7 +54,7 @@ textarea {
 .secondary.drc-button.blue:visited,
 .expand-card,
 .explore-sticky,
-#db-nav-movie,
+#db-nav-movie#db-nav-movie,
 .comment-item .author,
 .status-item .block,
 .nlst,
