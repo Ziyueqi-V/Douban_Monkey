@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.31
+// @version      0.0.32
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -24,7 +24,7 @@
 
 .base-selector.expand .base-selector-title,
 .base-selector-title:hover,
-.nav-search .inp input,
+.nav-search .inp.inp input,
 .error-highlighter,
 textarea {
   background-color: #141414;
