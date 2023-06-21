@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.33
+// @version      0.0.34
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -76,7 +76,7 @@ h1,
 
 .explore-uncollect-filter,
 .rich-content.rich-content p,
-.review-content p,
+.review-content.review-content p,
 .rich-content.rich-content section,
 .review-content section,
 .rich-content.rich-content article,
