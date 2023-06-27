@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.35
+// @version      0.0.36
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -99,7 +99,7 @@ h1,
 .topic-richtext p,
 .rich-content.rich-content blockquote,
 .topic-richtext blockquote,
-.sidebar-info-wrapper .info-item .info-item-val,
+.sidebar-info-wrapper .info-item .info-item-val.info-item-val,
 #wrapper#wrapper,
 .ep-info li span.all,
 .comments-app-wrapper,
