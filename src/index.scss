@@ -98,7 +98,8 @@ h1,
 // 影评评论
 .comments-app-wrapper.comments-app-wrapper,
 .blockquote-list.blockquote-list figure,
-html {
+// 笔记正文 
+.note.note p html {
   color: $primaryText;
 }
 
