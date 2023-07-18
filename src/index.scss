@@ -99,7 +99,8 @@ h1,
 .comments-app-wrapper.comments-app-wrapper,
 .blockquote-list.blockquote-list figure,
 // 笔记正文 
-.note.note p html {
+.note.note p,
+html {
   color: $primaryText;
 }
 
