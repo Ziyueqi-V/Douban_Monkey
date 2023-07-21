@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.40
+// @version      0.0.41
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -109,6 +109,7 @@ html {
   color: rgba(255, 255, 255, 0.65);
 }
 
+.author-info .author-link .verify.verify,
 .drc-subject-info-subtitle,
 .gaia.gaia-lite .tags label {
   color: rgba(255, 255, 255, 0.45);
