@@ -51,6 +51,7 @@ textarea {
 .nlst h3,
 .bg-img-green h4,
 .gray_ad,
+.list-comm .list-comm .comm-mod.comm-mod,
 html {
   background: $deepGray;
 }
@@ -100,7 +101,6 @@ h1,
 .blockquote-list.blockquote-list figure,
 // 笔记正文 
 .note.note p,
-.list-comm .list-comm .comm-mod.comm-mod,
 html {
   color: $primaryText;
 }
