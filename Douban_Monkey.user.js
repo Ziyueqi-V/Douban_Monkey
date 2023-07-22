@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.41
+// @version      0.0.42
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -105,6 +105,7 @@ h1,
 .comments-app-wrapper.comments-app-wrapper,
 .blockquote-list.blockquote-list figure,
 .note.note p,
+.list-comm .list-comm .comm-mod.comm-mod,
 html {
   color: rgba(255, 255, 255, 0.65);
 }
