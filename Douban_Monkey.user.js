@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.43
+// @version      0.0.44
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -183,6 +183,10 @@ html {
 
 .item .title.title {
   background: none rgba(240, 247, 249, 0.1294117647);
+}
+
+.main .review-content.review-content {
+  font-size: 18px;
 }
   `;
   GM_addStyle(vistopiaCSS);
