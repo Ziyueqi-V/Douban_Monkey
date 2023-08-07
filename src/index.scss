@@ -183,6 +183,7 @@ html {
 }
 
 // 影评正文
-.main .review-content.review-content {
+.main .review-content.review-content,
+.review-content.review-content p {
   font-size: 18px;
 }
