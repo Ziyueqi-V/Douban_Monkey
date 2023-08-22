@@ -192,8 +192,12 @@ html {
 // 短评表单
 #dialog {
   background-color: $app-frame;
-}
 
-textarea.comment {
-  background: #b1b0b0;
+  textarea.comment {
+    background: #b1b0b0;
+  }
+
+  textarea {
+    height: 150px;
+  }
 }

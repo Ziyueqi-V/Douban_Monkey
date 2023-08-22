@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.48
+// @version      0.0.49
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -194,9 +194,11 @@ html {
 #dialog {
   background-color: #1f1f1f;
 }
-
-textarea.comment {
+#dialog textarea.comment {
   background: #b1b0b0;
+}
+#dialog textarea {
+  height: 150px;
 }
   `;
   GM_addStyle(vistopiaCSS);
