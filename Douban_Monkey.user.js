@@ -2,7 +2,7 @@
 // @name         Douban_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.47
+// @version      0.0.48
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -189,6 +189,10 @@ html {
 .review-content.review-content p {
   font-size: 18px;
   line-height: 2;
+}
+
+#dialog {
+  background-color: #1f1f1f;
 }
 
 textarea.comment {
