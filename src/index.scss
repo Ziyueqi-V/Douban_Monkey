@@ -4,6 +4,11 @@ $douban-blue: #258dcd;
 $douban-green: #007722;
 $btn-bg: #f0f7f921;
 
+// 页面行高
+body {
+  line-height: 2;
+}
+
 // "豆瓣正在发生"
 .notify-mod,
 #db-nav-sns {
