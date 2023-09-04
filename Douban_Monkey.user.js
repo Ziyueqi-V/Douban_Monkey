@@ -3,7 +3,7 @@
 // @name:zh-CN   豆瓣猴
 // @name:zh-TW   豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.53
+// @version      0.0.54
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -68,7 +68,7 @@ textarea {
 .gray_ad,
 .list-comm .list-comm .comm-mod.comm-mod,
 html {
-  background: #363b40;
+  background: #2d2d2d;
 }
 
 .review-list .review-item .main-bd .action .action-btn.action-btn {
