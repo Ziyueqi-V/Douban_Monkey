@@ -3,6 +3,9 @@
 $douban-blue: #258dcd;
 $douban-green: #007722;
 $btn-bg: #f0f7f921;
+$bg-grey-light: #363b40;
+$bg-grey-middle: #2d2d2d;
+$bg-grey-dark: #252526;
 
 // 页面行高
 body {
@@ -58,7 +61,7 @@ textarea {
 .gray_ad,
 .list-comm .list-comm .comm-mod.comm-mod,
 html {
-  background: $deepGray;
+  background: $bg-grey-light;
 }
 
 // 赞同、反对按钮
