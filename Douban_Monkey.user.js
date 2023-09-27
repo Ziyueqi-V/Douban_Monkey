@@ -3,7 +3,7 @@
 // @name:zh-CN   豆瓣猴
 // @name:zh-TW   豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.54
+// @version      0.0.55
 // @description  douban beautify css injection script
 // @author       Sherlock-V
 // @match        https://douban.com
@@ -188,6 +188,10 @@ html {
 
 .item .title.title {
   background: none rgba(240, 247, 249, 0.1294117647);
+}
+
+.review-list .review-item .review-short.review-short {
+  color: rgba(255, 255, 255, 0.45);
 }
 
 .main .review-content.review-content,

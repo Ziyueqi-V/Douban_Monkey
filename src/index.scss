@@ -190,6 +190,10 @@ html {
   background: none $btn-bg;
 }
 
+.review-list .review-item .review-short.review-short {
+  color: $secondaryText;
+}
+
 // 影评正文
 .main .review-content.review-content,
 .review-content.review-content p {
